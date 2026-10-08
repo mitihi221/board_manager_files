@@ -1,0 +1,50 @@
+{
+  "packages": [
+    {
+      "name": "bartosz-777",
+      "websiteURL": "https://www.wch.cn/",
+      "maintainer": "bartosz-777",
+      "email": "tech@wch.cn",
+      "help": {
+        "online": "https://www.wch.cn/"
+      },
+      "platforms": [
+       	{
+          "name": "WeAct CH32",
+          "architecture": "ch32v",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/bartosz-777/arduino_core_weact_ch32x035/zip/main",
+          "archiveFileName": "arduino_core_weact_ch32x035-main.zip",
+          "checksum": "SHA-256:e61c6d155782333cc34a66ebccdf478e1d96e7e6cac6e09a9d5610b7a22a1158",
+          "size": "1663551",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},		  
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},			
+            {"name": "CH32V10x EVT Board"},			
+            {"name": "CH32V00x EVT Board"}  
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WCH",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "openocd",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "bartosz-777",
+              "name": "wchisp",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
