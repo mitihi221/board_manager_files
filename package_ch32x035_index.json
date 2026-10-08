@@ -35,11 +35,6 @@
               "packager": "WCH",
               "name": "openocd",
               "version": "1.0.0"
-            },
-            {
-              "packager": "bartosz-777",
-              "name": "wchisp",
-              "version": "1.0.0"
             }
           ]
         }
